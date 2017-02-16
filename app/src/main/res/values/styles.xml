@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="NormalSize">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="NormalTextButton">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+    </style>
+</resources>

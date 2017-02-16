@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+dependencies {
+    compile 'com.google.auto.service:auto-service:1.0-rc2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':ioc_annotaion2')
+
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+
+}
+
+task makeJar(type: Jar, dependsOn:['build']) {
+    archiveName = 'my-annotation.jar'
+    from('build/classes/main')
+    from(project.zipTree("libs/javawriter-2.5.1.jar")) // 添加这一行
+    destinationDir = file('build/libs')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
