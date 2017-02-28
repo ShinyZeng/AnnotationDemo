@@ -1,1 +1,1 @@
-include ':app', ':ioc-annotation', ':ioc_compiler', ':ioc-api', ':ioc_annotaion2', ':libtestannotation'
+include ':app', ':ioc-annotation', ':ioc_compiler', ':ioc-api', ':ioc_annotaion2', ':libtestannotation', ':bindviewcompiler', ':libtestprocess', ':myannotationapplication'

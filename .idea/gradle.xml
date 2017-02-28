@@ -9,11 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bindviewcompiler" />
             <option value="$PROJECT_DIR$/ioc-annotation" />
             <option value="$PROJECT_DIR$/ioc-api" />
             <option value="$PROJECT_DIR$/ioc_annotaion2" />
             <option value="$PROJECT_DIR$/ioc_compiler" />
             <option value="$PROJECT_DIR$/libtestannotation" />
+            <option value="$PROJECT_DIR$/libtestprocess" />
+            <option value="$PROJECT_DIR$/myannotationapplication" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

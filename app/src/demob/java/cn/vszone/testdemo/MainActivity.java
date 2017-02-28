@@ -39,6 +39,7 @@ import com.squareup.okhttp.Response;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
 
@@ -93,6 +94,14 @@ public class MainActivity extends Activity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        sort();
+    }
+
+    private void sort(){
+        String[] array = {"666","20018","88"};
+        Arrays.sort(array);
+        Log.d("TAG", Arrays.toString(array));
     }
 
     private void onBtnClick(){
